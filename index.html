@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda tenis- Inicio</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo h1">
+            <img src="/Imagenes/Logo.png" alt="Logotipo" class="logo-img" width="50" height="50">
+        </div>
+        <div class="logo"><h1>KICK<span>STYLE</span></h1></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="carousel-container">
+                <button class="carousel-btn btn-prev" onclick="moveCarousel(-1)">&#10094;</button>
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="carusel-slide">
+                        <img src="/Imagenes/tenis1.jpg" alt="Nuevos Air Max Spectrum" class="carousel-img">
+                        <div class="carousel-content">
+                            <h2>Zapatillas Nike</h2>
+                            <p>Zapatillas de alta calidad y estilo.</p>
+                        </div>
+                        <img src="/Imagenes/tenis2.jpg" alt="Nuevos Air Max Spectrum" class="carousel-img">
+                        <div class="carousel-content">
+                            <h2>Zapatillas Nike</h2>
+                            <p>Zapatillas de alta calidad y estilo.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn btn-next" onclick="moveCarousel(1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Modelos Más Vendidos</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-tag">Top 1</div>
+                    <div class="card-img"><img src="/Imagenes/tenis3.jpg" alt="Classic Street Brown"></div>
+                    <div class="card-info">
+                        <h3>Zapatillas Classic Street</h3>
+                        <p class="price">$129.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-tag">Top 2</div>
+                    <div class="card-img"><img src="/Imagenes/tenis4.jpg" alt="Runner Blue Pro"></div>
+                    <div class="card-info">
+                        <h3>Zapatillas Runner Blue Pro</h3>
+                        <p class="price">$149.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-tag">Top 3</div>
+                    <div class="card-img"><img src="/Imagenes/tenis5.jpg" alt="Urban Flex"></div>
+                    <div class="card-info">
+                        <h3>Zapatillas Urban Flex</h3>
+                        <p class="price">$139.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-tag">Top 4</div>
+                    <div class="card-img"><img src="/Imagenes/tenis6.jpg" alt="Street Runner"></div>
+                    <div class="card-info">
+                        <h3>Zapatillas Street Runner</h3>
+                        <p class="price">$159.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-tag">Top 5</div>
+                    <div class="card-img"><img src="/Imagenes/tenis8.jpg" alt="Air Max Spectrum"></div>
+                    <div class="card-info">
+                        <h3>Zapatillas Air Max Spectrum</h3>
+                        <p class="price">$179.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-tag">Top 6</div>
+                    <div class="card-img"><img src="/Imagenes/tenis9.jpg" alt="Urban Flex"></div>
+                    <div class="card-info">
+                        <h3>Zapatillas Urban Flex</h3>
+                        <p class="price">$139.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-tag">Top 7</div>
+                    <div class="card-img"><img src="/Imagenes/tenis10.jpg" alt="Street Runner"></div>
+                    <div class="card-info">
+                        <h3>Zapatillas Street Runner</h3>
+                        <p class="price">$159.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-tag">Top 8</div>
+                    <div class="card-img"><img src="/Imagenes/tenis11.jpg" alt="Air Max Spectrum"></div>
+                    <div class="card-info">
+                        <h3>Zapatillas Air Max Spectrum</h3>
+                        <p class="price">$179.99</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Ofertas Imperdibles</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-tag" style="background: #20bf6b;">-30%</div>
+                    <div class="card-img"><img src="/Imagenes/tenis12.jpg" alt="Runner Blue Pro"></div>
+                    <div class="card-info">
+                        <h3>Zapatillas Runner Blue Pro</h3>
+                        <p class="price"><span class="old-price">$199.99</span>$139.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-tag" style="background: #20bf6b;">-30%</div>
+                    <div class="card-img"><img src="/Imagenes/tenis13.jpg" alt="Urban Flex"></div>
+                    <div class="card-info">
+                        <h3>Zapatillas Urban Flex</h3>
+                        <p class="price"><span class="old-price">$189.99</span>$132.99</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Nuestras Sucursales</h2>
+            <div class="sucursales-container">
+                <div class="sucursal-card">
+                    <h3>Sucursal la patrona</h3>
+                    <img src="/Imagenes/direccion.png" alt="Sucursal la patrona" class="sucursal-img" width="50" height="50">
+                    <p>Office Tower, Cyber City</p>
+                    <img src="/Imagenes/Telefono.png" alt="Teléfono" class="sucursal-img" width="40" height="30">
+                    <p>+1 234 567 890</p>
+                    <img src="/Imagenes/horario.png" alt="Horario" class="sucursal-img" width="40" height="30">
+                    <p>3:50 PM - 9:00 PM</p>
+                </div>
+            </div>
+            <div class="sucursales-container">
+                <div class="sucursal-card">
+                    <h3>Sucursal la pochita</h3>
+                    <img src="/Imagenes/direccion.png" alt="Sucursal la pochita" class="sucursal-img" width="50" height="50">
+                    <p>Office Tower, Cyber City</p>
+                    <img src="/Imagenes/Telefono.png" alt="Teléfono" class="sucursal-img" width="40" height="30">
+                    <p>+1 234 567 890</p>
+                    <img src="/Imagenes/horario.png" alt="Horario" class="sucursal-img" width="40" height="30">
+                    <p>3:50 PM - 9:00 PM</p>
+                </div>  
+            </div>
+            <div class="sucursales-container">
+                <div class="sucursal-card">
+                    <h3>Sucursal la chiquita</h3>
+                    <img src="/Imagenes/direccion.png" alt="Sucursal la chiquita" class="sucursal-img" width="50" height="50">
+                    <p>Office Tower, Cyber City</p>
+                    <img src="/Imagenes/Telefono.png" alt="Teléfono" class="sucursal-img" width="40" height="30">
+                    <p>+1 234 567 890</p>
+                    <img src="/Imagenes/horario.png" alt="Horario" class="sucursal-img" width="40" height="30">
+                    <p>3:50 PM - 9:00 PM</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <img src="/Imagenes/facebook.png" alt="Facebook" class="social-icon" width="30" height="30">
+            <a href="#" target="_blank">Facebook</a>
+            <img src="/Imagenes/instagram.png" alt="Instagram" class="social-icon" width="30" height="30">
+            <a href="#" target="_blank">Instagram</a>
+            <img src="/Imagenes/tiktok.png" alt="TikTok" class="social-icon" width="30" height="30">
+            <a href="#" target="_blank">TikTok</a>
+        </div>
+        <p>Examen Unidad 3 Tópicos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>

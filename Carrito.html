@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto e Informes | ITIID UPChiapas</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo h1">
+            <img src="/Imagenes/Logo.png" alt="Logotipo" class="logo-img" width="50" height="50">
+        </div>
+        <div class="logo"><h1>KICK<span>STYLE</span></h1></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active">Carrito</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="contacto" class="seccion">
+            <h2>Pedido Personalizado / Contacto</h2>
+            
+            <form id="form-pedido" class="formulario">
+                
+                <div class="form-group">
+                    <label for="nombre">Nombre del producto:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. tenis" required>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="modelo">Selecciona el Modelo:</label>
+                    <select id="modelo" name="modelo" required>
+                        <option value="">-- Elige un modelo --</option>
+                        <option value="air-runner">tenis nike</option>
+                        <option value="street-casual">tenis adidas</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="nombre">Precio:</label>
+                    <input type="text" id="precio" name="precio" placeholder="Ej. $199.99" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="nombre">Cantidad:</label>
+                    <input type="text" id="cantidad" name="cantidad" placeholder="Ej. 1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="nombre">Acciones:</label>
+                    <input type="text" id="acciones" name="acciones" placeholder="Ej. Agregar al carrito" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="nombre">Total:</label>
+                    <input type="text" id="total" name="total" placeholder="Ej. $199.99" required>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <img src="/Imagenes/facebook.png" alt="Facebook" class="social-icon" width="30" height="30">
+            <a href="#" target="_blank">Facebook</a>
+            <img src="/Imagenes/instagram.png" alt="Instagram" class="social-icon" width="30" height="30">
+            <a href="#" target="_blank">Instagram</a>
+            <img src="/Imagenes/tiktok.png" alt="TikTok" class="social-icon" width="30" height="30">
+            <a href="#" target="_blank">TikTok</a>
+        </div>
+        <p>Examen Unidad 3 Tópicos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/JavaScript/script.js"></script>
+</body>
+</html>

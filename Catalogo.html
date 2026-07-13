@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tenis - Catálogo</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo h1">
+            <img src="/Imagenes/Logo.png" alt="Logotipo" class="logo-img" width="50" height="50">
+        </div>
+        <div class="logo"><h1>KICK<span>STYLE</span></h1></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active">Catalogo</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="section-title">Nuestro Catálogo</h2>
+        
+        <div class="filter-buttons">
+            <button class="filter-btn" onclick="filterCatalog('damas', event)">Niña</button>
+            <button class="filter-btn" onclick="filterCatalog('caballeros', event)">Niño</button>
+            
+        </div>
+
+        <div class="grid-container" id="catalogGrid">
+            
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="/Imagenes/niño1.png" alt="Tenis de niño 1">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis nike</h3>
+                    <p>tenis</p>
+                    <p class="price">$199.99</p>
+                </div>
+            </div>
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="/Imagenes/niño1.png" alt="Tenis de niño 2">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis adidas</h3>
+                    <p>tenis</p>
+                    <p class="price">$189.99</p>
+                </div>
+            </div>
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="/Imagenes/niño1.png" alt="Tenis de niño 1">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis nike</h3>
+                    <p>tenis</p>
+                    <p class="price">$199.99</p>
+                </div>
+            </div>
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="/Imagenes/niño1.png" alt="Tenis de niño 2">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis adidas</h3>
+                    <p>tenis</p>
+                    <p class="price">$189.99</p>
+                </div>
+            </div>
+             <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="/Imagenes/niño1.png" alt="Tenis de niño 1">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis nike</h3>
+                    <p>tenis</p>
+                    <p class="price">$199.99</p>
+                </div>
+            </div>
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="/Imagenes/niño1.png" alt="Tenis de niño 2">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis adidas</h3>
+                    <p>tenis</p>
+                    <p class="price">$189.99</p>
+                </div>
+            </div>
+
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="/Imagenes/niña1.png" alt="Tenis de niña 1">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis reebok</h3>
+                    <p>tenis</p>
+                    <p class="price">$179.99</p>
+                </div>
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="/Imagenes/niña1.png" alt="Tenis de niña 1">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis reebok</h3>
+                    <p>tenis</p>
+                    <p class="price">$179.99</p>
+                </div>
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="/Imagenes/niña1.png" alt="Tenis de niña 1">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis reebok</h3>
+                    <p>tenis</p>
+                    <p class="price">$179.99</p>
+                </div>
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="/Imagenes/niña1.png" alt="Tenis de niña 1">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis reebok</h3>
+                    <p>tenis</p>
+                    <p class="price">$179.99</p>
+                </div>
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="/Imagenes/niña1.png" alt="Tenis de niña 1">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis reebok</h3>
+                    <p>tenis</p>
+                    <p class="price">$179.99</p>
+                </div>
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="/Imagenes/niña1.png" alt="Tenis de niña 1">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis reebok</h3>
+                    <p>tenis</p>
+                    <p class="price">$179.99</p>
+                </div>
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="/Imagenes/niña1.png" alt="Tenis de niña 1">
+                </div>
+                <div class="card-info">
+                    <h3>Tenis reebok</h3>
+                    <p>tenis</p>
+                    <p class="price">$179.99</p>
+                </div>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <img src="/Imagenes/facebook.png" alt="Facebook" class="social-icon" width="30" height="30">
+            <a href="#" target="_blank">Facebook</a>
+            <img src="/Imagenes/instagram.png" alt="Instagram" class="social-icon" width="30" height="30">
+            <a href="#" target="_blank">Instagram</a>
+            <img src="/Imagenes/tiktok.png" alt="TikTok" class="social-icon" width="30" height="30">
+            <a href="#" target="_blank">TikTok</a>
+        </div>
+        <p>Examen Unidad 3 Tópicos. Todos los derechos reservados.</p>
+    </footer>
+    <script src="/JavaScript/script.js"></script>
+</body>
+</html>
